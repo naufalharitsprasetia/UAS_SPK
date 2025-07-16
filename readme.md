@@ -11,5 +11,13 @@ source venv/bin/activate # macOS/Linux:
 
 pip install django pandas numpy # install packages
 
-python manage.py runserver # jalankan
+python manage.py migrate # migrasi tabel-tabel database
+
+python manage.py createsuperuser # perintah untuk membuat Akun untuk masuk ke admin dashboard
+
+python manage.py runserver # jalankan, dan buka di route '/admin'
 ```
+
+## Route
+- {server:host}/admin : untuk input data Alternatif,Kriteria,Nilai
+- {server:host}/hasil : untuk melihat hasil keputusan berdasarkan metode WP
