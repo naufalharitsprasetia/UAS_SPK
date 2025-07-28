@@ -1,7 +1,10 @@
 # Project Akhir Mata Kuliah SPK
 (Sistem Pendukung Keputuan)
 Studi Kasus : "Pemilihan Calon Staff PPTIK Universitas Darussalam Gontor"
-
+oleh : 
+- Naufal Harits Prasetia / 432022611051
+- Mukhammad Shobikh / 432022611047
+  
 ## Tutorial :    
 ```bash
 python -m venv venv # buat virtual enviroment
